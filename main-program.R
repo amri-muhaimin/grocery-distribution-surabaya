@@ -1,3 +1,8 @@
+#****************Import Library***************#
+library(maptools)
+library(sp)
+library(spatstat)
+library(dplyr)
 #**************************input data***************************************#
 setwd("D:/S2/Spasial/eas")
 df=read.csv("kelontong.csv", sep = ";")
